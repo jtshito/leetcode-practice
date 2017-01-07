@@ -16,6 +16,7 @@ public class hamming {
 			if(i % 3 == 0){result.add("Fizz");continue;}
 			if(i % 5 == 0){result.add("Buzz");continue;}
 			result.add(Integer.toString(i));
+			System.out.println("hello github");
 			
 		}
 		for(int i = 0; i < n;i++){
